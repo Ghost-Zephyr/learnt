@@ -1,0 +1,12 @@
+[package]
+name = "learnt"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+path = "tester/main.rs"
+name = "tester"
+
+[dependencies]
+serde = { version = "1.0.203", features = ["derive"] }
+toml = "0.8.13"
